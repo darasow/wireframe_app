@@ -5,7 +5,7 @@
 - Lancez votre IDE de preference(Android, Vscode, Intellij...)
 - Ouvrez le projet
 - Connectez votre emulateur ou votre telephone physique(activez le mode   developpement)
-- Executer l'application avec les boutons proposés par votre IDE 
+- Executer l'application avec les boutons proposés par votre IDE après avoir installer les dépendances avec la commande flutter pub get
 
 ## Les principales fonctionnalités implémentées
 - J'ai utiliser un SingleChildScrollView pour que ma Scaffold soit scrollable
