@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, // Désactive l'indicateur de debug
       title: 'Profil facebook',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
@@ -20,4 +21,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
